@@ -11,7 +11,7 @@ p {
   font-weight: 700;
   font-size: 15px;
   line-height: 200%;
-
+  padding-bottom: 80px;
 }
 
 
@@ -24,6 +24,7 @@ p {
    padding: 2rem;
    height: 600px;
    align-items: center;
+ 
 }
   
 .sedan {

@@ -1,84 +1,96 @@
+
+
+
 h1 {
   color: hsl(0, 0%, 95%);
-  font-family:'Lexend Deca', sans-serif;
-  font-weight: 400;
+  font-family: 'Big shoulder display', sans-serif;
   font-size: 30px;
+  font-family: 'Big Shoulders Display', cursive;
+  padding-top: 20px;
   
 }
 p {
-  color: hsla(0, 0%, 100%, 0.75);
-  font-family: 'Lexend Deca', sans-serif;
-  font-weight: 700;
+  color: hsl(0, 0%, 100%, 0.75);
   font-size: 15px;
   line-height: 200%;
   padding-bottom: 80px;
+  font-family: 'Lexend Deca', sans-serif;
+
 }
 
 
 
-#container { 
+#container {  
   display: flex;
   flex: 1;
-  flex-basis: 300px;
+  align-content: left;
   justify-content: center;
-   padding: 2rem;
-   height: 600px;
-   align-items: center;
- 
+  align-items: center;
+  margin: 0 auto;
+   width: 900px;
+   height: 700px;
+    
+}
+
+.car-container {
+  padding: 60px;
 }
   
-.sedan {
+.SEDANS {
   background-color:  hsl(31, 71%, 52%); 
-  border: 0;
-  padding: 5rem;
-  text-align: center;
-  
-  }
+  border-radius: 10px 0 0 10px;  }
 
-  
-.suv {
+.SUV {
   background-color:  hsl(184, 100%, 22%);
-  border: 0;
-  padding: 5rem;
-  text-align: center;
-  
   }
 
-
-.luxury { 
+.LUXURY { 
    background-color: hsl(179, 100%, 13%);
-   border: 0;
-   padding: 5rem;
-   text-align: center;
+   
+   border-radius: 0 10px 10px 0;
+ }
+
+ 
+.btn {
+  border-radius: 500px;
+  font-size: 12px;
+  background-color: white;
+  padding: 13px 30px;
+  text-decoration: none; 
+  font-family: 'Lexend Deca', sans-serif; 
 }
 
 .btn1 {
-  border-radius: 300px;
-  font-size: 12px;
-  background-color: #fff;
-  padding: 13px 30px;
-  margin-top: 500px;
   color:hsl(31, 71%, 52%);
 }
+.btn1:hover {
+  background-color: hsl(31, 71%, 52%);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
 .btn2 {
-  border-radius: 300px;
-  font-size: 12px;
-  background-color: #fff;
-  padding: 13px 30px;
-  color: hsl(184, 100%, 22%);
+ color: hsl(184, 100%, 22%);
 }
-
+.btn2:hover { 
+  background-color: hsl(184, 100%, 22%);
+  color: #fff;
+  border: 1px solid #fff;
+ }
 .btn3 {
-  border-radius: 300px;
-  font-size: 12px;
-  background-color: #fff;
-  padding: 13px 30px;
   color: hsl(179, 100%, 13%);
-
+}
+.btn3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: #fff;
+  border: 1px solid #fff;
 }
 
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+  font-size: 11px; text-align: center;}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  padding-bottom: 20px;
+ }
 
 
